@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h>
+
+main(){
+   setlocale(LC_ALL,"Portuguese");
+   //int-%d, float-%f, double-%lf, char- %c
+   int idade1,idade2,soma;
+
+   printf("digite a idade 1:  ");
+   scanf("%d",&idade1);
+
+   printf("digite a idade 2:  ");
+   scanf("%d",&idade2);
+
+   soma = idade1 + idade2;
+   
+   printf("A soma das idades é :%d",soma);
+
+   printf("\n\n");
+
+   system("pause");
+}
